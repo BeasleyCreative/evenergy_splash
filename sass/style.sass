@@ -1,7 +1,15 @@
-/*
-  Welcome to Compass.
-  In this file you should write your main styles. (or centralize your imports)
-  Import this file using the following HTML or equivalent:
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+.content
+  $height: 300px
+  $width: 300px
+  height: $height
+  width: $width
+  background: #fff
+  position: absolute
+  top: 50%
+  left: 50%
+  margin-left: -$width / 2
+  margin-top: -$height / 2
 
-@import compass/reset
+.content
+  .headline
+    text-align: center
