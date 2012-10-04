@@ -31,7 +31,7 @@ html {
 /* line 25, ../sass/style.sass */
 .getinfo {
   display: none;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /* line 29, ../sass/style.sass */
@@ -71,14 +71,31 @@ label {
   margin: 10px;
 }
 
-/* line 59, ../sass/style.sass */
-input, textarea {
-  padding: 5px;
-  border-radius: 5px;
-  width: 170px;
+/* line 58, ../sass/style.sass */
+::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+
+/* line 61, ../sass/style.sass */
+:-moz-placeholder {
+  text-transform: uppercase;
 }
 
 /* line 64, ../sass/style.sass */
+:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+/* line 67, ../sass/style.sass */
+input, textarea {
+  padding: 5px;
+  border-radius: 5px;
+  width: 75%;
+  border: 2px solid #cccccc;
+  resize: none;
+}
+
+/* line 74, ../sass/style.sass */
 [type="submit"] {
   background: white;
   border-radius: 22px;
@@ -90,7 +107,7 @@ input, textarea {
   text-transform: uppercase;
 }
 
-/* line 74, ../sass/style.sass */
+/* line 84, ../sass/style.sass */
 :focus {
   outline-color: #f8a21b;
 }

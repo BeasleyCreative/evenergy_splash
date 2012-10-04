@@ -191,7 +191,7 @@ $message = $message . PHP_EOL.PHP_EOL."-- ".PHP_EOL."You've Received a new messa
 
 $message = stripslashes($message);
 
-$subject = "New Subscriber: ".$_REQUEST['Name'];
+$subject = "New Message from ".$_REQUEST['Name'];
 
 $subject = stripslashes($subject);
 
