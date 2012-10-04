@@ -19,22 +19,26 @@ html {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
+  border: 2px solid #cccccc;
+  -webkit-box-shadow: 0 0 60px #333333;
+  -moz-box-shadow: 0 0 60px #333333;
+  box-shadow: 0 0 60px #333333;
 }
 
-/* line 20, ../sass/style.sass */
+/* line 22, ../sass/style.sass */
 .logo {
   width: 80%;
   display: block;
   margin: -35px auto 0;
 }
 
-/* line 25, ../sass/style.sass */
+/* line 27, ../sass/style.sass */
 .getinfo {
   display: none;
   margin-top: 30px;
 }
 
-/* line 29, ../sass/style.sass */
+/* line 31, ../sass/style.sass */
 .contact {
   position: absolute;
   bottom: -18px;
@@ -50,7 +54,7 @@ html {
   margin-left: -74px;
 }
 
-/* line 43, ../sass/style.sass */
+/* line 45, ../sass/style.sass */
 .cta {
   border-top: 1px solid #cccccc;
   font-size: 16px;
@@ -60,33 +64,33 @@ html {
   width: 70%;
 }
 
-/* line 51, ../sass/style.sass */
+/* line 53, ../sass/style.sass */
 label {
   margin-right: 10px;
 }
 
-/* line 54, ../sass/style.sass */
+/* line 56, ../sass/style.sass */
 .row {
   text-align: center;
   margin: 10px;
 }
 
-/* line 58, ../sass/style.sass */
+/* line 60, ../sass/style.sass */
 ::-webkit-input-placeholder {
   text-transform: uppercase;
 }
 
-/* line 61, ../sass/style.sass */
+/* line 63, ../sass/style.sass */
 :-moz-placeholder {
   text-transform: uppercase;
 }
 
-/* line 64, ../sass/style.sass */
+/* line 66, ../sass/style.sass */
 :-ms-input-placeholder {
   text-transform: uppercase;
 }
 
-/* line 67, ../sass/style.sass */
+/* line 69, ../sass/style.sass */
 input, textarea {
   padding: 5px;
   border-radius: 5px;
@@ -95,7 +99,7 @@ input, textarea {
   resize: none;
 }
 
-/* line 74, ../sass/style.sass */
+/* line 76, ../sass/style.sass */
 [type="submit"] {
   background: white;
   border-radius: 22px;
@@ -107,7 +111,7 @@ input, textarea {
   text-transform: uppercase;
 }
 
-/* line 84, ../sass/style.sass */
+/* line 86, ../sass/style.sass */
 :focus {
   outline-color: #f8a21b;
 }
