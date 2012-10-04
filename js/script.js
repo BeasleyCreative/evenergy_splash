@@ -4,7 +4,7 @@ $(function(){
   ;//var
 
   while(i)
-    list.push({image:'/evenergy/img/slides/evenergy_' + i-- + '.jpg'});
+    list.push({image:'./img/slides/evenergy_' + i-- + '.jpg'});
 
   $.supersized({
     autoplay: true,
