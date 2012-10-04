@@ -99,7 +99,7 @@ Enter the email address below to send the contents of the form to.  You can ente
 
 */
 
-$my_email = "design@beasleycreative.com";
+$my_email = "jsalberg@evenergy.com";
 
 /*
 
