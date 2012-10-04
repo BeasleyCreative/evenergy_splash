@@ -1,5 +1,11 @@
-/* line 1, ../sass/style.sass */
-.content {
+/* line 3, ../sass/style.sass */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+
+/* line 7, ../sass/style.sass */
+.frame {
   height: 300px;
   width: 300px;
   background: white;
@@ -8,9 +14,83 @@
   left: 50%;
   margin-left: -150px;
   margin-top: -150px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
 }
 
-/* line 14, ../sass/style.sass */
-.content .headline {
+/* line 20, ../sass/style.sass */
+.logo {
+  width: 80%;
+  display: block;
+  margin: -35px auto 0;
+}
+
+/* line 25, ../sass/style.sass */
+.getinfo {
+  display: none;
+  margin-top: 20px;
+}
+
+/* line 29, ../sass/style.sass */
+.contact {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 22px;
+  background: white;
+  border: 4px solid #cccccc;
+  width: 148px;
+  padding: 6px;
+  height: 38px;
+  margin-left: -74px;
+}
+
+/* line 43, ../sass/style.sass */
+.cta {
+  border-top: 1px solid #cccccc;
+  font-size: 16px;
+  margin: 16px auto 0;
   text-align: center;
+  padding-top: 12px;
+  width: 70%;
+}
+
+/* line 51, ../sass/style.sass */
+label {
+  margin-right: 10px;
+}
+
+/* line 54, ../sass/style.sass */
+.row {
+  text-align: center;
+  margin: 10px;
+}
+
+/* line 59, ../sass/style.sass */
+input, textarea {
+  padding: 5px;
+  border-radius: 5px;
+  width: 170px;
+}
+
+/* line 64, ../sass/style.sass */
+[type="submit"] {
+  background: white;
+  border-radius: 22px;
+  font-size: 16px;
+  padding: 6px 20px;
+  display: block;
+  margin: auto;
+  border: 1px solid #cccccc;
+  text-transform: uppercase;
+}
+
+/* line 74, ../sass/style.sass */
+:focus {
+  outline-color: #f8a21b;
 }
